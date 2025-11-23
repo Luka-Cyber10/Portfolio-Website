@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke's Portfolio</title>
+    <link rel="stylesheet" href="PortfolioStyle.css">
+
+	<link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+	<link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+
+<body>
+
+    <!-- Navbar / Header -->
+    <header class="header">
+        <a href="#home" class="logo"><span>LU</span>KE</a>
+		
+		
+		<input type="checkbox" id="menu-toggle" class="menu-toggle">
+		<label for="menu-toggle" class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+
+        <a href="#home" class="contact">Back To Top</a>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>I'm <span>LUKE,<br></span></h1>
+            <h3>a software developer</h3>
+
+            <p>
+                Luke Cohan Groenewald, a junior and upcoming software developer,
+                aiming to develop breathtaking software that solves problems
+                and has a purpose in the future.
+            </p>
+
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+                <a href="#contact"><button class="btn-1">Contact Me</button></a>
+            </div>
+        </div>
+
+        <div class="img-box">
+            <img src="me.jpg" alt="Picture of Luke">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="my-skills">
+        <div class="skills-section">
+            <h2 class="title">My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Development</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML5 & CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>App Development</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Multimedia</h3>
+                    <ul>
+                        <li>Graphic Design</li>
+                        <li>Video Editing</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Canva</li>
+                        <li>Flutter</li>
+                        <li>Visual Studio Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container1">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+
+            <table class="projects-table">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Screenshot</th>
+                        <th>Description</th>
+                        <th>Tools Used</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>
+                            <img class="image1" src="Screenshot 1.png" alt="Image of portfolio website">
+                        </td>
+                        <td>Developed and designed a personal portfolio website.</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tic-Tac-Toe Game</td>
+                        <td>
+                            <img class="image2" src="Screenshot 2.png" alt="Image of the game interface">
+                        </td>
+                        <td>Created a simple Tic-Tac-Toe game.</td>
+                        <td>Python</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile App UI Design</td>
+                        <td>
+                            <img class="image3" src="Screenshot 3.png" alt="Image of UI/UX design">
+                        </td>
+                        <td>Designed a note-taking app UI in Figma.</td>
+                        <td>Figma</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="me.jpg" alt="Luke's Picture">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+
+            <p>
+                I am an upcoming IT professional. My name is Luke Cohan Groenewald.
+                I come from an IT background, and ever since I was young, I’ve had
+                an interest in learning how software works and how to create it.
+                This passion drove me to become a software developer. I am currently
+                a student at Cape Peninsula University of Technology.
+            </p>
+
+            <a href="#" class="btn-1">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone number">
+            </div>
+
+            <div class="input-box">
+                <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+            </div>
+
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+
+        <p class="copyright">
+            © 2025 LUKE | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>
